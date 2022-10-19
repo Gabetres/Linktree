@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: Secularone-regular ;
+    src: url(/fonts/SecularOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Silkscreen-Regular ;
+    src: url(fonts/Silkscreen-Regular.ttf) format('truetype');
+}
+
+.link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gabetres {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #131516;
+}
+
+
+h1 {
+    color: #ffff;
+    font-size: 35px;
+    font-family: Secularone-regular;
+}
+
+a {
+    color: #ffff;
+    font-size: 20px;
+    font-family: Silkscreen-Regular;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: #e01e37;
+    font-size: 25px;
+  }
